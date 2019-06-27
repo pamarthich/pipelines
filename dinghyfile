@@ -1,8 +1,8 @@
 {
-    "application": "dinghytest",
+    "application": "test",
     "pipelines": [
         {
-            "application": "dinghytest",
+            "application": "test",
             "keepWaitingPipelines": false,
             "limitConcurrent": true,
             "name": "Made By Krishna",
