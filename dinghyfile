@@ -5,13 +5,27 @@
             "application": "test",
             "keepWaitingPipelines": false,
             "limitConcurrent": true,
-            "name": "dinghy-test,
+            "name": "Made By Krishna",
             "stages": [
                 {
                     "name": "wait",
                     "refId": "1",
                     "type": "wait",
                     "waitTime": 30
+                }
+            ]
+        },
+        {
+            "application": "test2",
+            "keepWaitingPipelines": false,
+            "limitConcurrent": true,
+            "name": "dinghy-test2",
+            "stages": [
+                {
+                    "name": "wait",
+                    "refId": "1",
+                    "type": "wait",
+                    "waitTime": 200
                 }
             ]
         }
