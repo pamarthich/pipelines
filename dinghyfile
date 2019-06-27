@@ -5,7 +5,7 @@
             "application": "test",
             "keepWaitingPipelines": false,
             "limitConcurrent": true,
-            "name": "Made By Krishna",
+            "name": "prod-Ind",
             "stages": [
                 {
                     "name": "wait",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "application": "test2",
+            "application": "test",
             "keepWaitingPipelines": false,
             "limitConcurrent": true,
-            "name": "dinghy-test2",
+            "name": "Prod-JP",
             "stages": [
                 {
                     "name": "wait",
