@@ -11,7 +11,7 @@
                     "name": "wait",
                     "refId": "1",
                     "type": "wait",
-                    "waitTime": 500
+                    "waitTime": 600
                 }
             ]
         }
