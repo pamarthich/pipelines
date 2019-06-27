@@ -1,0 +1,19 @@
+{
+    "application": "dinghytest",
+    "pipelines": [
+        {
+            "application": "dinghytest",
+            "keepWaitingPipelines": false,
+            "limitConcurrent": true,
+            "name": "Made By Krishna",
+            "stages": [
+                {
+                    "name": "wait",
+                    "refId": "1",
+                    "type": "wait",
+                    "waitTime": 500
+                }
+            ]
+        }
+    ]
+}
